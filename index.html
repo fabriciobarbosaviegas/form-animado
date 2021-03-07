@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulario animado</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+</head>
+<body align="center">
+<br><h1>Seja Bem-Vindo!!</h1><br>
+<form id="form" action="login.php" method="get">
+	<fieldset>
+		<div>
+			<br>
+			<p>E-mail:</p>
+			<input type="email" name="email" class="input" id="email">
+			<p>Senha:</p>
+			<input type="password" name="senha" class="input" id="password"><br>
+			<br><button id="btn" class="btn" onclick="validate()">Logar</button><br>
+			<br>
+		</div>
+	</fieldset>
+</form>
+<ul class="squares">
+</ul>
+<script src="index.js">
+</script>
+</body>
+</html>
